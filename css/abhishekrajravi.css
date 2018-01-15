@@ -8,7 +8,7 @@ h4{
 .home-section{
 	width: 100%;
 	height: 95vh;
-	background-image:url(img/back.jpg);
+	background-image:url(https://github.com/arrbxr/portfolio/blob/master/img/back.jpg?raw=true);
 	background-blend-mode: multiply;
 	background-size: cover;
 }
