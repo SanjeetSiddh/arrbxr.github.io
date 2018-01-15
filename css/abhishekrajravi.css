@@ -1,0 +1,149 @@
+
+h4{
+	color: rgb(248, 215, 215)
+
+}
+
+
+.home-section{
+	width: 100%;
+	height: 95vh;
+	background-image:url(https://cdn.pixabay.com/photo/2016/10/11/21/43/banner-1732847_960_720.jpg);
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+.home-section .home-section-caption{
+	position: absolute;
+	width: 100%;
+	top: 25%;
+	left: 0;
+}
+.home-section .home-section-caption .img{
+	text-align: center;
+}
+.name{
+	font-size: 3.4em;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+.line{
+	height: 2px;
+	width: 35%;
+	border: 3px dashed;
+	border-bottom-color: rgb(236, 31, 255);
+	border-top-color: rgb(130, 255, 72);
+	margin: 0 auto;
+	border-radius: 100%;
+
+}
+
+.front-end{
+	color: #fff;
+	font-size: 2em;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+}
+@media (max-width: 768px){
+	.home-section .home-section-caption{
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		left: 0;
+	}
+	.name{
+		font-size: 3.5em;
+	}
+	.line{
+		width: 75%;
+	}
+	.front-end{
+		margin-top: 5px;
+		font-size: 2em;
+	}
+}
+@media  (max-width: 544px){
+	.home-section{
+		background-image: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/banner-1732847_960_720.jpg);
+	}
+	.home-section .home-section-caption{
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	left: 0;
+}
+	.name{
+		font-size: 2.5em;
+	}
+	.line{
+		width: 95%;
+	}
+	.front-end{
+		margin-top: 4px;
+		font-size: 1em;
+	}
+}
+
+/* About section */
+
+.about-section{
+	background-color: rgb(5, 11, 12);
+	width: 100%;
+	height: auto;
+	color: rgb(112, 112, 112);
+}
+
+.about-desc p{
+	color: rgb(114, 114, 114);
+	letter-spacing: 1px; 
+	font-size: 1.3em;
+	word-spacing: 3px;
+	margin-bottom: 2px;
+	text-align: justify;
+	font-family: 'Slabo 27px', serif;
+}
+
+.believe{
+	letter-spacing: 2px;
+}
+.line2{
+	width:20%;
+	height:1px;
+	border: 1px dotted rgb(124, 124, 124);
+	margin: 3px auto;
+	border-radius: 100%;
+}
+.quote{
+	letter-spacing: 1.2px;
+	font-size: 1.5em;
+}
+@media (max-width: 544px){
+	.about-desc p{
+		word-spacing: 1.5px;
+		font-size: 1.2em;
+	}
+	.line2{
+		width:50%;
+	}
+	.quote{
+		font-size: 1.2em;
+		letter-spacing: 3px;
+	}
+}
+
+/* bittom section */
+.contacts-section{
+	widows: 100%;
+	height: 250px;
+	background-color: rgb(36, 36, 44);
+}
+
+
+.message{
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	color: rgb(1, 56, 139);
+}
