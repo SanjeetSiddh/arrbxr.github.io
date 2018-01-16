@@ -1,3 +1,3 @@
-# abhishekrajravi
+# abhishekrajravi.me
 Here My Portfolio
-<img scr="https://github.com/arrbxr/portfolio/blob/master/img/portfolio.png?raw=true">
+<p><img scr="img/portfolio.png" width="100%"></p>
