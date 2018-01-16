@@ -152,18 +152,23 @@ h4{
 }
 
 /*Social Networks */
-.linkedin{
-	color: rgb(0, 217, 255);
-}
-.github{
-	color: rgb(212, 212, 212);
-}
-.codepen{
-	color:#000;
-}
-.medium{
-
-}
+.linkedin,
+.codepen,
+.github,
+.medium,
 .email{
-	color: rgb(226, 53, 53);
+	color: rgb(165, 165, 165);
+}
+
+.mobile{
+	color: rgb(149, 173, 133);
+	font-weight: 500;
+}
+.mobile:hover{
+	text-decoration: none;
+	color: antiquewhite;
+}
+.location{
+	color: rgb(206, 206, 206);
+	font-weight: 500;
 }
