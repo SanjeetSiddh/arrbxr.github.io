@@ -1,3 +1,7 @@
+.wow{
+    visibility: hidden;
+}
+
 
 h4{
 	color: rgb(248, 215, 215)
@@ -12,7 +16,9 @@ h4{
 	background-blend-mode: multiply;
 	background-size: cover;
 }
-
+.home-section ,.home-section-caption p{
+	color: rgb(8, 31, 29) !important;
+}
 .home-section .home-section-caption{
 	position: absolute;
 	width: 100%;
