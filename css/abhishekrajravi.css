@@ -2,10 +2,7 @@
     visibility: hidden;
 }
 
-h4{
-	color: rgb(1, 133, 133)
-
-}
+/* HOME SECTION */
 .home-section{
 	width: 100%;
 	height: 95vh;
@@ -13,44 +10,48 @@ h4{
 	background-blend-mode: multiply;
 	background-size: cover;
 }
-.home-section ,.home-section-caption p{
-	color: rgb(0, 126, 115) !important;
-}
+
 .home-section .home-section-caption{
 	position: absolute;
 	width: 100%;
 	top: 25%;
 	left: 0;
 }
+
 .home-section .home-section-caption .img{
 	text-align: center;
 }
-.name{
-	font-size: 3.4em;
-	text-align: center;
-	color: rgb(0, 85, 71);
-	font-weight: 500;
-	margin-bottom: 0;
+
+.home-section ,.home-section-caption p{
+	color: rgb(0, 48, 43) !important;
 	font-family: 'Noto Serif', serif;
 }
-.line{
+
+.my-name{
+	font-size: 3.4em;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 0;	
+}
+
+.my-name-desc{
+	font-size: 2em;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.home-section .line{
 	height: 2px;
-	width: 35%;
-	border: 3px dashed;
-	border-bottom-color: rgb(220, 45, 243) ;
+	width: 40%;
+	border: 3px dotted;
+	border-bottom-color: rgb(0, 131, 131) ;
 	border-top-color:aqua;
 	margin: 0 auto;
 	border-radius: 100%;
 
 }
 
-.front-end{
-	color: rgb(72, 255, 224);
-	font-size: 2em;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	font-family: 'Noto Serif', serif;
-}
+
 @media (max-width: 768px){
 	.home-section .home-section-caption{
 		position: absolute;
@@ -58,16 +59,16 @@ h4{
 		top: 50%;
 		left: 0;
 	}
-	.name{
+	.my-name{
 		font-size: 3.5em;
 	}
-	.line{
-		width: 75%;
-	}
-	.front-end{
+	.my-name-desc{
 		letter-spacing: 4px;
 		margin-top: 5px;
 		font-size: 2em;
+	}
+	.home-section .line{
+		width: 75%;
 	}
 }
 @media  (max-width: 544px){
@@ -77,16 +78,17 @@ h4{
 	top: 40%;
 	left: 0;
 }
-	.name{
+	.my-name{
 		font-size: 2.5em;
 	}
-	.line{
-		width: 95%;
-	}
-	.front-end{
+	
+	.my-name-desc{
 		letter-spacing: 5px;
 		margin-top: 4px;
 		font-size: 1em;
+	}
+	.home-section .line{
+		width: 95%;
 	}
 }
 
@@ -96,26 +98,28 @@ h4{
 	background-color: rgb(5, 11, 12);
 	width: 100%;
 	height: auto;
+}
+.about-section h4{
 	color: aqua;
 }
-
-.about-desc p{
-	color: aqua;
+.about-section h5{
+	color: rgb(0, 90, 105);
+}
+.about-section p{
+	color: rgb(0, 77, 77);
 	letter-spacing: 1px; 
 	font-size: 1.3em;
-	word-spacing: 3px;
-	margin-bottom: 2px;
 	text-align: justify;
 	font-family: 'Slabo 27px', serif;
 }
 
-.believe{
+.i-think{
 	letter-spacing: 2px;
 }
 .line2{
 	width:30%;
 	height:1px;
-	border: 1px dotted rgb(93, 181, 207);
+	border: 1px dotted rgb(108, 187, 211);
 	margin: 3px auto;
 	border-radius: 100%;
 }
@@ -124,7 +128,7 @@ h4{
 	font-size: 1.5em;
 }
 @media (max-width: 544px){
-	.about-desc p{
+	.about-section p{
 		word-spacing: 1.5px;
 		font-size: 1.2em;
 	}
@@ -151,12 +155,11 @@ h4{
 	background-color: rgb(5, 11, 12);
 	color: rgb(73, 255, 234);
 }
-@media (max-width: 544px){
-	.footer-line{
-		width: 100%;
-		height: 1px;
-		background-color: rgb(146, 255, 255);
-	}
+
+.footer-line{
+	width: 100%;
+	height: 2px;
+	background-color: rgb(146, 255, 255);
 }
 
 .message{
@@ -187,19 +190,15 @@ h4{
 	transition: 0.5s;
 }
 
-.mobile{
+.location{
 	color: rgb(0, 236, 146);
 	font-weight: 500;
 	text-shadow: 4px 4px 5px #000, 6px 6px 6px #000;
 }
-.mobile:hover{
+.location:hover{
 	text-decoration: none;
 	color: rgba(0, 107, 84, 0.404);
 	
 }
 
-h5{
-	color: rgb(136, 255, 255);
-
-}
 
