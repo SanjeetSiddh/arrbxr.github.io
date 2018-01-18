@@ -100,13 +100,13 @@
 	height: auto;
 }
 .about-section h4{
-	color: rgb(211, 211, 211);
+	color: rgb(7, 144, 179);
 }
 .about-section h5{
-	color: rgb(168, 168, 168);
+	color: rgb(4, 130, 161);
 }
 .about-section p{
-	color: rgb(160, 160, 160);
+	color:rgb(97, 144, 179);
 	letter-spacing: 1px; 
 	font-size: 1.3em;
 	text-align: justify;
@@ -173,7 +173,7 @@
 .github,
 .medium,
 .facebook{
-	color: rgb(7, 144, 179);
+	color: aquamarine;
 	text-shadow: 4px 4px 10px rgb(0, 0, 0), 6px 6px 3px rgb(0, 0, 0);
 	transition: 0.5s;
 }
@@ -189,7 +189,7 @@
 }
 
 .location{
-	color: rgb(97, 144, 179);
+	color: aquamarine;
 	font-weight: 500;
 	text-shadow: 4px 4px 5px #000, 6px 6px 6px #000;
 	transition: 0.5s;
