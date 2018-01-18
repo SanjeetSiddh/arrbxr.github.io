@@ -183,13 +183,13 @@
 .github:hover,
 .medium:hover,
 .facebook:hover{
-	color: aqua;
+	color: rgb(97, 223, 255);
 	text-shadow: 1px 1px 1px #000, 1px 1px 1px #000;
 	transition: 0.5s;
 }
 
 .location{
-	color: rgb(36, 155, 109);
+	color: rgb(97, 144, 179);
 	font-weight: 500;
 	text-shadow: 4px 4px 5px #000, 6px 6px 6px #000;
 	transition: 0.5s;
