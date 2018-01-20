@@ -30,7 +30,9 @@
 }
 .navbar-brand{
 	color: aqua;
-
+}
+.navbar-brand:hover{
+	color: aquamarine;
 }
 .navbar-toggler-icon{
 	color: red !important;
