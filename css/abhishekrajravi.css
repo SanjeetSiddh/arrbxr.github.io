@@ -5,7 +5,7 @@
 	color: aqua !important;
 }
 .text-red{
-	color: rgb(158, 0, 0);
+	color: rgb(255, 11, 11);
 	font-weight: 500;
 }
 .btn-outline-aqua{
@@ -242,10 +242,11 @@
 	background: transparent;
 }
 .modal-body .form-group input,
-.modal-body .form-group textarea,
-.input-group-text{
+.modal-body .form-group textarea{
 	background-color: rgba(0, 0, 0, 0.562) !important;
 }
 .input-group-text{
-	color: aqua;
+	background-color: aqua;
+	color: rgb(0, 0, 0);
+	
 }
