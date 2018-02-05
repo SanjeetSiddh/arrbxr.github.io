@@ -110,7 +110,7 @@
 .facebook-follow{
 	position: absolute;
 	bottom: 0%;
-	left: 50%;
+	left: 15px;
 }
 
 
@@ -131,9 +131,6 @@
 	}
 	.home-section .line{
 		width: 75%;
-	}
-	.facebook-follow{
-		left: 5%;
 	}
 }
 @media  (max-width: 544px){
