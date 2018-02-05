@@ -107,6 +107,12 @@
 
 }
 
+.facebook-follow{
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+}
+
 
 @media (max-width: 768px){
 	.home-section .home-section-caption{
@@ -125,6 +131,9 @@
 	}
 	.home-section .line{
 		width: 75%;
+	}
+	.facebook-follow{
+		left: 5%;
 	}
 }
 @media  (max-width: 544px){
