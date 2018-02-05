@@ -283,9 +283,9 @@
 input[type=text],
 input[type=email], 
 textarea{
-	background-color: transparent !important;
+	background-color: rgba(0, 0, 0, 0.527) !important;
 }
 .input-group-text{
-	background-color: rgba(0, 255, 255, 0.664);
+	background-color: rgba(77, 213, 255, 0.664);
 	color: rgb(0, 0, 0);
 }
